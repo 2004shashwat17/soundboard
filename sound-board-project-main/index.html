@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soundboard Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💫 Soundboard Game 💫</h1>
+        <p>Click on the sound buttons below and Understand the sound with there respective buttons!</p>
+        <br>
+        <!-- <div class="score-container">
+            <p>SCORE: <span id="score">0</span></p>
+        </div> -->
+
+        <!-- Popup Modal -->
+<div id="popup" class="popup hidden">
+    <div class="popup-content">
+        <span id="closePopup" class="close-btn">&times;</span>
+        <h2 id="popupText">Sound Name</h2>
+    </div>
+</div>
+
+        <div class="soundboard">
+            <div class="sound-btn" id="sound1">
+                <!-- <img src="sounds/bird-sound-249237.mp3" alt="Sound 1"> -->
+                <h1>🐦</h1>
+            </div>
+            <div class="sound-btn" id="sound2">
+                <!-- <img src="sounds/fire-sound-effects-224089.mp3" alt="Sound 2"> -->
+                <h1>🔥</h1>
+            </div>
+            <div class="sound-btn" id="sound3">
+                <!-- <img src="sounds/thunderstorm-14708.mp3" alt="Sound 3"> -->
+                <h1>⚡</h1>
+            </div>
+            <div class="sound-btn" id="sound4">
+                <!-- <img src="sounds/rain-01.mp3" alt="Sound 4"> -->
+                <h1>⛈️</h1>
+            </div>
+            <div class="sound-btn" id="sound5">
+                <!-- <img src="sounds/rain-01.mp3" alt="Sound 4"> -->
+                <h1>🍃</h1>
+            </div>
+            <div class="sound-btn" id="sound6">
+                <!-- <img src="sounds/rain-01.mp3" alt="Sound 4"> -->
+                <h1>🌊</h1>
+            </div>
+        </div>
+
+        <!-- <div class="random-sound-container">
+            <img id="randomSoundIcon" src="" alt="Random Sound">
+        </div> -->
+<br>
+        <div class="footer">
+            <!-- <h6>Game For Learning Purpose Only 🎮</h6> -->
+            <button id="startGameBtn">Game For Learning Purpose Only 🎮</button>
+        </div>
+
+        <audio id="birdSound" src="sounds/bird-sound-249237.mp3"></audio>
+        <audio id="dogSound" src="sounds/fire-sound-effects-224089.mp3"></audio>
+        <audio id="carSound" src="sounds/thunderstorm-14708.mp3"></audio>
+        <audio id="bellSound" src="sounds/rain-01.mp3"></audio>
+        <audio id="windSound" src="sounds/windblowing-44676.mp3"></audio>
+        <audio id="oceanSound" src="sounds/ocean-waves-250310.mp3"></audio>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
